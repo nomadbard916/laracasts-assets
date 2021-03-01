@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce249194-7b77-4fe3-9098-0f56213c86c8" name="Default Changelist" comment="EP2 Building the Layout">
-      <change afterPath="$PROJECT_DIR$/resources/js/components/Colors.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/Illustrations.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/LoadersAndAnimations.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/Mascot.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/Typography.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/Wallpapers.vue" afterDir="false" />
+    <list default="true" id="ce249194-7b77-4fe3-9098-0f56213c86c8" name="Default Changelist" comment="EP3 One Component Per Page">
+      <change afterPath="$PROJECT_DIR$/resources/js/components/NotFound.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/About.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/LogoSymbol.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Logo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +171,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614574075467</updated>
-      <workItem from="1614574078426" duration="10982000" />
+      <workItem from="1614574078426" duration="11188000" />
     </task>
     <task id="LOCAL-00001" summary="EP2 Building the Layout">
       <created>1614586412737</created>
@@ -193,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614604055182</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="EP3 One Component Per Page">
+      <created>1614608536591</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1614608536591</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +214,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="EP2 Building the Layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="EP2 Building the Layout" />
+    <MESSAGE value="EP3 One Component Per Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="EP3 One Component Per Page" />
   </component>
 </project>

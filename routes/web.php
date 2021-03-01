@@ -11,7 +11,7 @@
 |
 */
 
-// let view handle routing
+// let view handle any routing
 Route::get('/{any?}', function () {
     return view('welcome');
-});
+})->where('any', '.*');
