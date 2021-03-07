@@ -2,11 +2,17 @@ import Logo from './components/Logo';
 import LogoSymbol from './components/LogoSymbol';
 import Colors from './components/Colors';
 import Illustrations from "./components/Illustrations";
-import LoadersAndAnimations from "./components/LoadersAndAnimations";
 import Mascot from "./components/Mascot";
 import Typography from "./components/Typography";
 import Wallpapers from "./components/Wallpapers";
 import NotFound from "./components/NotFound";
+import SiteStats from "./components/SiteStats";
+
+// dynamic import
+let LoadersAndAnimations = () => import(
+    /* webpackChunkName: "loaders-and-animations.bundle" */
+    "./components/LoadersAndAnimations"
+    );
 
 export default {
     mode: 'history',
@@ -53,6 +59,11 @@ export default {
         {
             path: '/wallpapers',
             component: Wallpapers,
+
+        },
+        {
+            path: '/site-stats',
+            component: SiteStats,
 
         },
 
